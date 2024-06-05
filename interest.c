@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #define PRINCIPAL 5000.00
 #define PERIOD 10
 
