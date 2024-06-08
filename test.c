@@ -2,8 +2,10 @@
 
 void main()
 {
-    double x = 1.234567890000;
-    printf("%.12lf\n",x);
-    printf("%f\n",x);
-    printf("%.8lf\n",x);
+    int x,y;
+    short int z;
+    x = 891231;
+    y = 324143;
+    z = x+y;
+    printf("x = %d\ny = %d\nz = %d\n",x,y,z);
 }
