@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+int main()
 {
     int number;
     float amount;
@@ -12,4 +12,5 @@ void main()
     printf("%d\n",number);
     printf("%5.2f\n",amount);
     printf("%5.2f\n",sum);
+    return 0;
 }

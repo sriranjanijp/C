@@ -1,11 +1,19 @@
 #include <stdio.h>
-
-void main()
+int main()
 {
-    int x,y;
-    short int z;
-    x = 891231;
-    y = 324143;
-    z = x+y;
-    printf("x = %d\ny = %d\nz = %d\n",x,y,z);
+    int m,n,x,j,count = 0;
+    scanf("%d %d %d",&m,&n,&x);
+    for (int i = m; i<=n; i++)
+    {
+        j = i;
+        
+        while (j>0)
+        {
+            if ((j%10)>3)
+            count++;
+            j = j/10;
+        }  
+          
+    }
+    printf("%d",count);
 }
