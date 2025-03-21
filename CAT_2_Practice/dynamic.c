@@ -32,5 +32,7 @@ int main()
     {
         printf("\nfreq[%d]: %d",i,freq[i]);
     }
+    free(freq);
+    free(num);
     return 0;
 }
